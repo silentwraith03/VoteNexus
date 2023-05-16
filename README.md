@@ -64,8 +64,5 @@ polls-website/
 * JavaScript
 * SQLite
 
-## Acknowledgements 
-* ForkAwesome - icons
-
 ## License
 [MIT](LICENSE)
