@@ -16,42 +16,36 @@ Before running the polls website, make sure you have the following installed:
 ## Installation
 1. Clone the repository or download the source code.
 ```bash
-git clone https://github.com/silentwraith03/pollster-project.git
+git clone https://github.com/silentwraith03/VoteNexus.git
 ```
 2. Navigate to the project directory.
 ```bash
-cd pollster-project
+cd VoteNexus
 ```
-3. Install the required dependencies.
-```bash
-pip install -r requirements.txt
-```
-4. Create the database and apply the migrations.
+3. Create the database and apply the migrations.
 ```bash
 python manage.py migrate
 
 ```
-5. Start the development server
+4. Start the development server.
 ```bash
 python manage.py runserver
 ```
-6. Open your web browser and visit http://localhost:8000/ to access the polls website
+5. Open your web browser and visit http://localhost:8000/ to access the polls website.
 
 ## Project Structure
 ```arduino
-polls-website/
-  |- polls/
-  |  |- migrations/
-  |  |- static/
-  |  |- templates/
-  |  |- admin.py
-  |  |- apps.py
-  |  |- models.py
-  |  |- urls.py
-  |  |- views.py
-  |- manage.py
+VoteNexus/
+  |- images/
+  |- pollster/
+  |- |- pages/
+  |- |- polls/
+  |- |- pollster/
+  |- |- templates/
+  |- |- db.sqlite3
+  |- |- manage.py
+  |- LICENSE
   |- README.md
-  |- requirements.txt
 ```
 
 ## Screenshots
