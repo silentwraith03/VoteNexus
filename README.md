@@ -31,6 +31,11 @@ pip install -r requirements.txt
 python manage.py migrate
 
 ```
+5. Start the development server
+```bash
+python manage.py runserver
+```
+6. Open your web browser and visit http://localhost:8000/ to access the polls website
 
 ## Project Structure
 ```arduino
